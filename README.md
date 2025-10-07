@@ -1,6 +1,9 @@
 "# Percobaan-Metode-Numerik" 
+
 Raihan Sahaja
+
 21120123130093
+
 This project implements four numerical methods to solve the system of nonlinear equations: x² + xy = 10 and y + 3xy² = 57. The implemented methods include Jacobi Fixed Point, Gauss-Seidel, Newton-Raphson, and Secant methods.
 
 Among these methods, only Jacobi diverges due to its simultaneous iteration approach and sensitivity to initial guesses. The formulation x_new = (10 - x²) / y and y_new = √((57 - y) / (3 * x)) proves unstable as it cannot handle the strong coupling between equations effectively.
