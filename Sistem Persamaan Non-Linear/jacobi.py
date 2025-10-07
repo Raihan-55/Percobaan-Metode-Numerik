@@ -1,5 +1,9 @@
 import math
 
+print("Nama: Raihan Sahaja")
+print("NIM : 21120123130093")
+print("-" * 60)
+
 def jacobi_fixed_point(x0, y0, epsilon=0.000001, max_iter=100):
     print(f"{'r':<3} {'x':<12} {'y':<12} {'deltaX':<12} {'deltaY':<12}")
     x = x0
